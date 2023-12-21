@@ -5,4 +5,5 @@ from django.http import HttpResponse
 
 def say_hello(request):
     print('Debug has started and git has deleed')
+    print('new brunch created')
     return render(request, 'hello.html', {'name': 'akash'})
